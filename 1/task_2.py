@@ -66,6 +66,7 @@ x2_vals = np.linspace(1.5, 3.5, 10)
 X1, X2 = np.meshgrid(x1_vals, x2_vals)
 Y = a0 + a1 * X1 + a2 * X2
 
+
 # Побудова графіка
 fig = plt.figure(figsize=(8, 6))
 ax = fig.add_subplot(111, projection='3d')
